@@ -5,7 +5,7 @@ from telebot import types
 
 bot = telebot.TeleBot("5336215402:AAE8b5KUE2beFe7_kTGAhPz5M6Qyvw9nnl0")
 
-@bot.message_handler(commands=['run'])
+@bot.message_handler(commands=['rir8xj282jd92di92unieow'])
 def start(message):
 	lists = [('''﷽ : ❰ هَمَّازٍ مَشَّاءٍ بِنَمِيمٍ ﴿١١﴾ ❱
 
