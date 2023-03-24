@@ -1,3 +1,6 @@
+telebot
+requests
+types
 pyrogram
 listen
 pyromod
