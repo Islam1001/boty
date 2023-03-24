@@ -540,14 +540,3 @@ def reply_hello(message):
          ياربي لك الحمد
          """]
         bot.reply_to(message, random.choice(habibi_responses1))
-
-
-
-
-
-
-
-
-threading.Thread(target=bot.polling, kwargs={'none_stop': True}).start()
-send_messages()top': True}).start()
-send_messages()
