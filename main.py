@@ -162,9 +162,9 @@ def start(message):
 ------‐------------------------
 • تستطيع من خلال البوت أن تُفعل الاذكار ( كل ساعتين سيرسل البوت آية قرآنية بشكل عشوائية):
 
-- لتفعيل الأذكار أرسل : /run 
+- لتفعيل الأذكار أرسل : /run (متوقف حالياً)
 
-• تستطيع ارسال "اجر" وسيرسل البوت دعاء عشوائي """,reply_markup=mas)
+• تستطيع ارسال "أجر" وسيرسل البوت دعاء عشوائي """,reply_markup=mas)
 
 responses =  ["""
 دعاء لبس الثوب الجديد
@@ -527,7 +527,7 @@ yousef1_responses = [
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
     text = message.text.lower()
-    if "اجر" in text:
+    if "أجر" in text:
         response = random.choice(responses)
         bot.reply_to(message, response, reply_markup=get_inline_keyboard())
     elif "كيمقنف الحال" in text:
